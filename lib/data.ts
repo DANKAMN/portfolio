@@ -64,21 +64,27 @@ export const projectsData = [
   {
     title: "Real Estate",
     description:
-      "A cutting-edge full-stack real estate marketplace. Users can post real estate listings and book listings",
+      "A cutting-edge full-stack real estate marketplace. Users can post real estate listings and book listings.",
+    url: "https://mern-real-estate-isek.onrender.com/",
+    source: "https://github.com/DANKAMN/mern_real_estate",
     tags: ["React", "Node.js", "MongoDB", "Google OAuth", "Firebase"],
     imageUrl: estateImg,
   },
   {
     title: "Imaginify",
     description:
-      "Imaginfy is a cutting-edge Software-as-a-Service image editing application, enriched  with AI capabilities and a sophisticated payments and credits system.",
+      "A cutting-edge Software-as-a-Service AI image editing application, enriched  with a sophisticated payments and credits system.",
+    url: "https://imaginify-omega-six.vercel.app/",
+    source: "https://github.com/DANKAMN/ai-saas-nextjs14",
     tags: ["Next.js", "TypeScript", "MongoDB", "Stripe", "Clerk"],
     imageUrl: imaginifyImg,
   },
   {
     title: "Daniel Eats",
     description:
-      "Daniel Eats is an enterprise level food ordering platform. Enjoy effortless restaurant addition, menu exploration, order placement, and advanced search features. ",
+      "An enterprise level food ordering platform. Enjoy effortless restaurant addition, menu exploration, order placement, and advanced search features. ",
+    url: "https://food-ordering-web-app-frontend.onrender.com/",
+    source: "https://github.com/DANKAMN/food-ordering-web-app",
     tags: ["React", "TypeScript", "MongoDB", "Auth0", "Cloudinary"],
     imageUrl: eatsImg,
   },
