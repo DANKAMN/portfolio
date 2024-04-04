@@ -102,7 +102,7 @@ export const skillsData = [
   "Axios",
   "Git",
   "GitHub",
-  "Prisma",
+  "PostgreSQL",
   "Jest",
   "GraphQL",
   "NPM",
