@@ -20,29 +20,31 @@ const About = () => {
     >
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3">
-        After graduating highschool, I decided to pursue my
-        passion for programming. I enrolled in a 2 year tech program (Aptech) and learnt{" "}
-        <span className="font-medium">software engineering</span>.{" "}
-        <span className="italic">My favorite part of programming</span> is the
-        problem-solving aspect. I <span className="underline">love</span> the
-        feeling of finally figuring out a solution to a problem. My core stack
-        is{" "}
+        After graduating from high school, I chose to follow my passion for programming by enrolling in a{" "}
+        <span className="font-medium">two-year software engineering program at Aptech</span>. This experience provided me with a strong foundation in{" "}
+        <span className="font-medium">full-stack development</span> and ignited my love for solving complex problems through code.
+      </p>
+
+      <p className="mb-3">
+        My core tech stack includes{" "}
         <span className="font-medium">
-          React, Next.js, Node.js, Express and MongoDB
+          React, Next.js, Node.js, Express, and MongoDB
         </span>
-        . I also possess experience with TypeScript and several other front-end pakages. I am continuously eager to explore emerging technologies. 
-        Presently, I am actively seeking a{" "}
-        <span className="font-medium">full-time software developer role</span> to further advance my skills and contribute to innovative projects.
+        , complemented by experience with TypeScript and various front-end libraries. I’m constantly exploring{" "}
+        <span className="italic">emerging technologies</span> and refining my skills to stay ahead in the rapidly evolving tech landscape.
+      </p>
+
+      <p className="mb-3">
+        I’m currently seeking a{" "}
+        <span className="font-medium">full-time software developer role</span> where I can contribute to impactful projects, collaborate with innovative teams, and continue honing my expertise.
       </p>
 
       <p>
-        <span className="italic">When I&apos;m not coding</span>, I enjoy playing
-        basketball, watching movies, and playing chess. I also enjoy{" "}
-        <span className="font-medium">trying out new things</span>. I am currently
-        trying out{" "}
-        <span className="font-medium">journalism</span>, and also
-        learning how to bake cookies.
+        <span className="italic">Beyond coding</span>, I enjoy playing basketball, watching movies, and engaging in chess matches. I’m also passionate about{" "}
+        <span className="font-medium">trying new things</span>—currently diving into{" "}
+        <span className="font-medium">journalism</span> and learning how to bake cookies.
       </p>
+
     </motion.section>
   )
 }

@@ -35,29 +35,42 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
+    title: "Aptech Computer Education",
     location: "Lagos, Nigeria",
     description:
       "I graduated from Aptech Computer Education with an ADSE (Advanced Diploma In Software Engineering) degree. In the following year I found a job as a front-end developer.",
     icon: React.createElement(LuGraduationCap),
-    date: "DEC 2022",
+    date: "JAN 2021 - DEC 2022",
   },
   {
-    title: "Freelance Front-End Developer",
-    location: "Remote",
-    description:
-      "I worked as a freelance front-end developer for 6 months with clients online.",
+    title: "Web developer",
+    location: "Twealthy Nigeria Limited",
+    description: "Spearheaded the redesign of the outdated website and incorporating of modern UI/UX principles",
     icon: React.createElement(CgWorkAlt),
-    date: "2023",
+    date: "JAN 2022 - NOV 2022",
   },
   {
     title: "Full-Stack Open University",
     location: "Helsinki, Finland",
     description:
       "I enrolled in the Full Stack Open University online. After that I upskilled to a full-stack developer. My stack includes React, Next.js, TypeScript, Tailwind, Mongoose and MongoDB. I'm open to full-time opportunities.",
-    icon: React.createElement(FaReact),
-    date: "OCT 2023 - DEC 2023",
+    icon: React.createElement(LuGraduationCap),
+    date: "JAN 2023 - APR 2023",
   },
+  {
+    title: "Front-end developer",
+    location: "Freelance, Remote",
+    description: "Built and maintained responsive websites that improved user engagement by ensuring cross-browser and mobile compatibility.",
+    icon: React.createElement(CgWorkAlt),
+    date: "FEB 2023 - MAY 2024",
+  },
+  {
+    title: "Full Stack developer",
+    location: "Chain CO-OP",
+    description: "Implemented and optimized database structures using MongoDB, ensuring efficient data retrieval and storage.",
+    icon: React.createElement(CgWorkAlt),
+    date: "SEP 2024 - PRESENT",
+  }
 ] as const;
 
 export const projectsData = [

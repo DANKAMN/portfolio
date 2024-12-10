@@ -3,7 +3,7 @@
 import Image from "next/image"
 import { motion } from "framer-motion"
 
-import profilePic from '../public/profile.jpg'
+import profilePic from '../public/profile-pic.jpg'
 import Link from "next/link";
 import { BsArrowRight, BsLinkedin } from "react-icons/bs";
 import { HiDownload } from "react-icons/hi";
@@ -32,7 +32,7 @@ const Intro = () => {
             initial={{ opacity: 0, y: 100 }}
             animate={{ opacity: 1, y: 0 }}
         >
-            <span className="font-bold">Hello, I&apos;m Daniel.</span> I&apos;m a{" "}
+            <span className="font-bold">Hello, I&apos;m Daniel Kamsiyochukwu Nicholas.</span> I&apos;m a{" "}
             <span className="font-bold">full-stack developer</span> with{" "}
             <span className="font-bold">nearly 4 years</span> of experience. I enjoy building
             <span className="italic"> sites & apps</span>. My focus is{" "}
@@ -59,7 +59,7 @@ const Intro = () => {
 
         <a
           className="group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10"
-          href="/resume-02_04_2024.pdf" download
+          href="/my-resume.pdf" download
         >
           Download Resume{" "}
           <HiDownload className="opacity-60 group-hover:translate-y-1 transition" />
